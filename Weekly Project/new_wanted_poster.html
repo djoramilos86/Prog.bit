@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Project</title>
+</head>
+
+<body>
+    <table width="70%" align="center">
+        <tr>
+            <td>
+                <a href="./index.html">Back to Homepage</a>
+                <br>
+                <br>
+                <form>
+                    <fieldset>
+                        <legend>Top Headline</legend>
+                        <label>Headline text:
+                            <input type="text" name="Headline text">
+                        </label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Images</legend>
+                        <label>Image 1:
+                            <input type="file" name="image1" value="Choose file">
+                        </label>
+                        <br>
+                        <label>Image 2:
+                            <input type="file" name="image2" value="Choose file">
+                        </label>
+                        <br>
+                        <label>Image 3:
+                            <input type="file" name="image3" value="Choose file">
+                        </label>
+                    </fieldset>
+                    <br/>
+                    <fieldset>
+                        <legend>Reward</legend>
+                        <label>Reward money:
+                            <input type="text" name="reward">
+                            <select name="currency">
+                                <option value="eur">&euro;</option>
+                                <option value="bit">&#x20BF;</option>
+                                <option value="usd">&#36;</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <br/>
+                    <fieldset>
+                        <legend>Reward</legend>
+                        <p>
+                            <label for="ali">Aliases:</label>
+                            <br>
+                            <input id="ali" type="text" name="aliases">
+                        </p>
+                        <p>
+                            <label for="da">Birth:</label>
+                            <br>
+                            <input id="da" type="date" name="birth">
+                        </p>
+                        <p>
+                            <label for="hai">Hair:</label>
+                            <br>
+                            <input id="hai" type="text" name="hair">
+                        </p>
+                        <p>
+                            <label>Eyes:
+                                <br>
+                                <input type="text" name="eyes">
+                            </label>
+                        </p>
+                        <p>
+                            <label>Height:
+                                <br>
+                                <input type="number" name="height">
+                            </label>
+                        </p>
+                        <p>
+                            <label>Weight:
+                                <br>
+                                <input type="number" name="weight">
+                            </label>
+                        </p>
+                        <p>
+                            <label>Sex:
+                                <br>
+                                <select name="sex">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>ID Number:
+                                <br>
+                                <input type="number" name="id_number">
+                            </label>
+                        </p>
+                        <p>
+                            <label>Occupation:
+                                <br>
+                                <input type="text" name="occupation">
+                            </label>
+                        </p>
+
+                    </fieldset>
+                    <br/>
+                    <fieldset>
+                        <legend>Remarks</legend>
+                        <br/>
+                        <textarea name="remarks" placeholder="Remark text" cols="183" rows="6"></textarea>
+                    </fieldset>
+                    <br/>
+                    <fieldset>
+                        <legend>Caution</legend>
+                        <textarea name="caution" placeholder="Caution text" cols="183" rows="6"></textarea>
+                    </fieldset>
+                    <br/>
+                    <br/>
+                    <input type="reset" value="Reset">
+                    <input type="submit" name="poster" value="Create Poster">
+                </form>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <hr width="75%" />
+</body>
+
+</html>
