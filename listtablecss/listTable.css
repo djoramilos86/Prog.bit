@@ -1,0 +1,39 @@
+#first{
+    list-style-type: circle;
+}
+#second{
+    list-style-type: square;
+}
+#third{
+    list-style-type: upper-alpha;
+}
+#fourth{
+    list-style-type: lower-roman;
+}
+#fifth{
+    list-style-image: url("http://gify.magazynek.org/pictures/rootCat08_Emotikony/Praca/Praca_-_066.gif");
+    width: 200px;
+}
+#sixth{
+    list-style-image: url("https://reygif.com/media/corazon-d-3033.gif");
+    width: 200px;
+    list-style-position: inside;
+} 
+
+table {
+    margin: auto;
+
+
+} 
+table th{
+    background-color: red;
+}
+table tr:nth-child(odd) {
+    background-color:gray;
+} 
+table td{
+    padding: 10px 0px;
+}
+table tr:hover{
+    background-color: yellow;
+}
