@@ -1,0 +1,56 @@
+.dimension {
+    width: 200px;
+    height: 200px;
+}
+
+.first {
+    background-color: aqua;
+}
+
+.second {
+    background-color: coral;
+}
+
+.third {
+    background-color: maroon;
+}
+
+.pera {
+    
+}
+
+.mika {
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+.laza {
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.bromazepam {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.bensendin {
+    position: absolute; 
+    right: 100px;
+    top: 100px;
+    z-index: 1;
+}
+
+.trodon {
+    position: absolute; 
+    right: 200px;
+    top: 200px;
+}
